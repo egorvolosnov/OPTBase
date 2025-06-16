@@ -1,0 +1,35 @@
+/* components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #2980b9;
+}
+
+.user-info {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
